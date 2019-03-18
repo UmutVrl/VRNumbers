@@ -12,47 +12,67 @@
     <session id="912509323">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="2" />
-          <entry key="project.open.time.4" value="3" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.4" value="4" />
+          <entry key="project.open.time.62" value="1" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="8" />
+          <entry key="cs" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="8" />
+          <entry key="C#" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="772" />
+          <entry key="cs" value="1351" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="772" />
+          <entry key="C#" value="1351" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ReactionTimeCalc.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="563">
+              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="62" />
+              <folding>
+                <marker date="1552930975379" expanded="false" signature="6:96" ph="..." />
+                <marker date="1552930975379" expanded="true" signature="145:904" ph="{...}" />
+                <marker date="1552930975379" expanded="true" signature="279:454" ph="{...}" />
+                <marker date="1552930975379" expanded="true" signature="491:556" ph="{...}" />
+                <marker date="1552930975379" expanded="true" signature="575:638" ph="{...}" />
+                <marker date="1552930975379" expanded="true" signature="692:902" ph="{...}" />
+                <marker date="1552930975379" expanded="true" signature="712:756" ph="{...}" />
+                <marker date="1552930975379" expanded="true" signature="797:886" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/DetectionUtilities/ExtendedFingerDetector.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="118" column="5" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="16" />
+            <state>
               <folding>
                 <marker date="1526509083000" expanded="true" signature="0:640" ph="/* Copyright (C) Leap Motion, Inc. 2011-2018. ... */" />
-                <marker date="1526509083000" expanded="false" signature="648:729" ph="..." />
+                <marker date="1526509083000" expanded="true" signature="648:729" ph="..." />
                 <marker date="1526509083000" expanded="true" signature="752:6911" ph="{...}" />
                 <marker date="1526509083000" expanded="true" signature="757:1343" ph="/* Detects when specified fingers are in an extended or non-extended state. ... */" />
                 <marker date="1526509083000" expanded="true" signature="1393:6780" ph="{...}" />
@@ -85,43 +105,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Utils/FpsLabel.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
-              <folding>
-                <marker date="1547648075331" expanded="true" signature="0:640" ph="/* Copyright (C) Leap Motion, Inc. 2011-2018. ... */" />
-                <marker date="1547648075331" expanded="true" signature="683:2039" ph="{...}" />
-                <marker date="1547648075331" expanded="true" signature="725:2037" ph="{...}" />
-                <marker date="1547648075331" expanded="true" signature="957:1389" ph="{...}" />
-                <marker date="1547648075331" expanded="true" signature="988:1033" ph="{...}" />
-                <marker date="1547648075331" expanded="true" signature="1069:1304" ph="{...}" />
-                <marker date="1547648075331" expanded="true" signature="1168:1296" ph="{...}" />
-                <marker date="1547648075331" expanded="true" signature="1417:2008" ph="{...}" />
-                <marker date="1547648075331" expanded="true" signature="1481:1746" ph="{...}" />
-                <marker date="1547648075331" expanded="true" signature="1557:1738" ph="{...}" />
-                <marker date="1547648075331" expanded="true" signature="1796:1885" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Plugins/PrintMessage.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1128">
-              <caret line="59" column="4" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
+            <state relative-caret-position="525">
+              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
               <folding>
-                <marker date="1547725669413" expanded="true" signature="6:187" ph="..." />
-                <marker date="1547725669413" expanded="true" signature="230:816" ph="{...}" />
-                <marker date="1547725669413" expanded="true" signature="295:392" ph="{...}" />
-                <marker date="1547725669413" expanded="true" signature="323:386" ph="/* if ( activated hand is this ){ ... */" />
-                <marker date="1547725669413" expanded="true" signature="435:465" ph="{...}" />
-                <marker date="1547725669413" expanded="true" signature="517:554" ph="{...}" />
-                <marker date="1547725669413" expanded="true" signature="608:614" ph="{...}" />
-                <marker date="1547725669413" expanded="true" signature="652:699" ph="{...}" />
-                <marker date="1547725669413" expanded="true" signature="720:755" ph="{...}" />
-                <marker date="1547725669413" expanded="true" signature="774:807" ph="{...}" />
+                <marker date="1552924814347" expanded="true" signature="6:187" ph="..." />
+                <marker date="1552924814347" expanded="true" signature="230:848" ph="{...}" />
+                <marker date="1552924814347" expanded="true" signature="295:395" ph="{...}" />
+                <marker date="1552924814347" expanded="true" signature="326:389" ph="/* if ( activated hand is this ){ ... */" />
+                <marker date="1552924814347" expanded="true" signature="438:468" ph="{...}" />
+                <marker date="1552924814347" expanded="true" signature="544:581" ph="{...}" />
+                <marker date="1552924814347" expanded="true" signature="635:641" ph="{...}" />
+                <marker date="1552924814347" expanded="true" signature="679:726" ph="{...}" />
+                <marker date="1552924814347" expanded="true" signature="747:787" ph="{...}" />
+                <marker date="1552924814347" expanded="true" signature="806:839" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -129,7 +127,11 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ReactionTimeCalc.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/DetectionUtilities/ExtendedFingerDetector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Utils/ProfilerSample.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/PrintMessage.cs" root0="FORCE_HIGHLIGHTING" />
@@ -145,6 +147,7 @@
         <option value="$PROJECT_DIR$/Assets/Plugins/Fingercountdeneme.cs" />
         <option value="$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Utils/FpsLabel.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/PrintMessage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ReactionTimeCalc.cs" />
       </list>
     </option>
   </component>
@@ -154,24 +157,25 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="597" />
-    <option name="y" value="131" />
-    <option name="width" value="1913" />
-    <option name="height" value="1268" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="268" />
+    <option name="y" value="216" />
+    <option name="width" value="1769" />
+    <option name="height" value="1329" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
       </pane>
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,11 +229,15 @@
       <workItem from="1547647349624" duration="726000" />
       <workItem from="1547648456321" duration="2202000" />
       <workItem from="1547721443413" duration="2962000" />
+      <workItem from="1550228896575" duration="1333000" />
+      <workItem from="1550675041704" duration="1133000" />
+      <workItem from="1552920836930" duration="7685000" />
+      <workItem from="1552930945419" duration="623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10103000" />
+    <option name="totallyTimeSpent" value="20877000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -242,8 +250,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2619237" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2698728" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -259,7 +268,7 @@
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32969603" />
       <window_info anchor="bottom" id="Unity" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -334,13 +343,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Utils/FpsLabel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144">
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ReactionTimeCalc.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="62" />
+          <folding>
+            <marker date="1552930975379" expanded="false" signature="6:96" ph="..." />
+            <marker date="1552930975379" expanded="true" signature="145:904" ph="{...}" />
+            <marker date="1552930975379" expanded="true" signature="279:454" ph="{...}" />
+            <marker date="1552930975379" expanded="true" signature="491:556" ph="{...}" />
+            <marker date="1552930975379" expanded="true" signature="575:638" ph="{...}" />
+            <marker date="1552930975379" expanded="true" signature="692:902" ph="{...}" />
+            <marker date="1552930975379" expanded="true" signature="712:756" ph="{...}" />
+            <marker date="1552930975379" expanded="true" signature="797:886" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/DetectionUtilities/ExtendedFingerDetector.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="118" column="5" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="16" />
+        <state>
           <folding>
             <marker date="1526509083000" expanded="true" signature="0:640" ph="/* Copyright (C) Leap Motion, Inc. 2011-2018. ... */" />
-            <marker date="1526509083000" expanded="false" signature="648:729" ph="..." />
+            <marker date="1526509083000" expanded="true" signature="648:729" ph="..." />
             <marker date="1526509083000" expanded="true" signature="752:6911" ph="{...}" />
             <marker date="1526509083000" expanded="true" signature="757:1343" ph="/* Detects when specified fingers are in an extended or non-extended state. ... */" />
             <marker date="1526509083000" expanded="true" signature="1393:6780" ph="{...}" />
@@ -371,41 +403,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Utils/FpsLabel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <marker date="1547648075331" expanded="true" signature="0:640" ph="/* Copyright (C) Leap Motion, Inc. 2011-2018. ... */" />
-            <marker date="1547648075331" expanded="true" signature="683:2039" ph="{...}" />
-            <marker date="1547648075331" expanded="true" signature="725:2037" ph="{...}" />
-            <marker date="1547648075331" expanded="true" signature="957:1389" ph="{...}" />
-            <marker date="1547648075331" expanded="true" signature="988:1033" ph="{...}" />
-            <marker date="1547648075331" expanded="true" signature="1069:1304" ph="{...}" />
-            <marker date="1547648075331" expanded="true" signature="1168:1296" ph="{...}" />
-            <marker date="1547648075331" expanded="true" signature="1417:2008" ph="{...}" />
-            <marker date="1547648075331" expanded="true" signature="1481:1746" ph="{...}" />
-            <marker date="1547648075331" expanded="true" signature="1557:1738" ph="{...}" />
-            <marker date="1547648075331" expanded="true" signature="1796:1885" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Plugins/PrintMessage.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1128">
-          <caret line="59" column="4" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
+        <state relative-caret-position="525">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
           <folding>
-            <marker date="1547725669413" expanded="true" signature="6:187" ph="..." />
-            <marker date="1547725669413" expanded="true" signature="230:816" ph="{...}" />
-            <marker date="1547725669413" expanded="true" signature="295:392" ph="{...}" />
-            <marker date="1547725669413" expanded="true" signature="323:386" ph="/* if ( activated hand is this ){ ... */" />
-            <marker date="1547725669413" expanded="true" signature="435:465" ph="{...}" />
-            <marker date="1547725669413" expanded="true" signature="517:554" ph="{...}" />
-            <marker date="1547725669413" expanded="true" signature="608:614" ph="{...}" />
-            <marker date="1547725669413" expanded="true" signature="652:699" ph="{...}" />
-            <marker date="1547725669413" expanded="true" signature="720:755" ph="{...}" />
-            <marker date="1547725669413" expanded="true" signature="774:807" ph="{...}" />
+            <marker date="1552924814347" expanded="true" signature="6:187" ph="..." />
+            <marker date="1552924814347" expanded="true" signature="230:848" ph="{...}" />
+            <marker date="1552924814347" expanded="true" signature="295:395" ph="{...}" />
+            <marker date="1552924814347" expanded="true" signature="326:389" ph="/* if ( activated hand is this ){ ... */" />
+            <marker date="1552924814347" expanded="true" signature="438:468" ph="{...}" />
+            <marker date="1552924814347" expanded="true" signature="544:581" ph="{...}" />
+            <marker date="1552924814347" expanded="true" signature="635:641" ph="{...}" />
+            <marker date="1552924814347" expanded="true" signature="679:726" ph="{...}" />
+            <marker date="1552924814347" expanded="true" signature="747:787" ph="{...}" />
+            <marker date="1552924814347" expanded="true" signature="806:839" ph="{...}" />
           </folding>
         </state>
       </provider>

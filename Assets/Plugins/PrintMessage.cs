@@ -15,6 +15,7 @@ public class PrintMessage : MonoBehaviour
 	public void PrintActivateMessage()
 	{
 		print("Activated");
+		
 		// if ( activated hand is this ){
 		// count}
 		// else if (){}
@@ -25,7 +26,8 @@ public class PrintMessage : MonoBehaviour
 	{
 		print("Deactivated");
 	}
-	
+
+	public GameObject ball;
 	
 	// Use this for initialization
 	void Start () {
@@ -49,6 +51,9 @@ public class PrintMessage : MonoBehaviour
 	{
 
 		print("inside OnEnable");
+
+		
+
 	}
 
 	void OnDisable(){
