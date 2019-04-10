@@ -848,6 +848,11 @@ Prefab:
       propertyPath: Other
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 114050727674517636, guid: ff1387dc9fd075f4a8c239b1164545a0,
+        type: 2}
+      propertyPath: Bother
+      value: 
+      objectReference: {fileID: 1816484943}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ff1387dc9fd075f4a8c239b1164545a0, type: 2}
   m_IsPrefabParent: 0
@@ -1718,6 +1723,15 @@ Prefab:
         type: 2}
       propertyPath: m_CullingMode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 137723638835135990, guid: 2276723046d707c4f94d431ceb80ab92,
+        type: 2}
+      propertyPath: m_SkinnedMotionVectors
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1032584726009328, guid: 2276723046d707c4f94d431ceb80ab92, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2276723046d707c4f94d431ceb80ab92, type: 2}

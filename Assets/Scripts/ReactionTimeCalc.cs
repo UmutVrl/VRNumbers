@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Diagnostics;
+using System.Runtime.InteropServices.WindowsRuntime;
 using Leap;
 using UnityEngine;
 using Leap.Unity;
@@ -10,6 +12,7 @@ using Leap.Unity.Attributes;
 using LeapInternal;
 using UnityEngine.UI;
 using Debug = UnityEngine.Debug;
+using Hand = Valve.VR.InteractionSystem.Hand;
 
 
 public class ReactionTimeCalc : MonoBehaviour {
@@ -17,22 +20,20 @@ public class ReactionTimeCalc : MonoBehaviour {
 	
 	public  float reactionTimer;
 	public  bool isTiming = false;
-	public  ExtendedFingerDetector Other;
-	public  RiggedHand DigerEl;
-	public  RiggedFinger DigerParmak;
-
-	
-//	int fingercount;
-	
-//	private bool Durum = false;
+//	public  ExtendedFingerDetector Other;
+//	public  HandModelBase HandModel;
+//	public  float Period = .1f;
+	private Controller controller;
+	private Frame current;
+	private Leap.Hand handRight;
 	
 	
-	//private int[] handnumber = new int[10];
-		 string[] digits = new string[5];
+	string[] digits = new string[5];
+	
 	
 	// Use this for initialization
 	
-	
+		
 	
 		public void ColorActivate()
 		{
@@ -47,144 +48,121 @@ public class ReactionTimeCalc : MonoBehaviour {
 		GetComponent<Renderer>().material.color = Color.red;
 		}
 	
+		private IEnumerator watcherCoroutine;
 		
-		IEnumerator  BeklemeCongruent()
+		private IEnumerator  BeklemeCongruent()
 		{
 			
 			int randomNumber = Random.Range(0, 4);
-
-			yield return new WaitForSeconds(1.0f);
-			GetComponent<Renderer>().material.color = Color.green;
-			yield return new WaitForSeconds(0.5f);
-			GetComponent<Renderer>().material.color = Color.grey;
-			yield return new WaitForSeconds(1.5f);
+			int randomNumberSecond = Random.Range(0, 4);
 			
-
+			
+			yield return new WaitForSeconds(2.5f);
 			GameObject.Find("Numerator").GetComponent<TextMesh>().text = digits[randomNumber];
 			isTiming = true;
-			print(randomNumber+1 + "  Reaction time: " + reactionTimer + "ms");
 			yield return new WaitUntil(() => DigitDetector() == randomNumber+1 );
-			print(DigitDetector() + "  Reaction time: " + reactionTimer + "ms");
-			GetComponent<Renderer>().material.color = Color.green;
+			Debug.Log(DigitDetector() + "  Reaction time: " + reactionTimer + " ms");
+			GameObject.Find("Numerator").GetComponent<TextMesh>().text = "TRUE";
 			yield return new WaitForSeconds(0.2f);
-			GetComponent<Renderer>().material.color = Color.grey;
 			GameObject.Find("Numerator").GetComponent<TextMesh>().text = "";
 			isTiming = false;
+			reactionTimer = 0;
 			
-			int randomNumber2 = Random.Range(0, 4);
-			
-			yield return new WaitForSeconds(1.0f);
-			GetComponent<Renderer>().material.color = Color.green;
-			yield return new WaitForSeconds(0.5f);
-			GetComponent<Renderer>().material.color = Color.grey;
-			yield return new WaitForSeconds(1.5f);
-			
-			GameObject.Find("Numerator").GetComponent<TextMesh>().text = digits[randomNumber2];
+			yield return new WaitForSeconds(2.5f);
+			GameObject.Find("Numerator").GetComponent<TextMesh>().text = digits[randomNumberSecond];
 			isTiming = true;
-			print(randomNumber2+1 + "  Reaction time2: " + reactionTimer + "ms");
-			yield return new WaitUntil(() => DigitDetector() == randomNumber2+1 );
-			print(DigitDetector() + "  Reaction time2: " + reactionTimer + "ms");
-			GetComponent<Renderer>().material.color = Color.green;
+			yield return new WaitUntil(() => DigitDetector() == randomNumberSecond+1 );
+			Debug.Log(DigitDetector() + "  Reaction timeSecond: " + reactionTimer + " ms");
+			GameObject.Find("Numerator").GetComponent<TextMesh>().text = "TRUE";
 			yield return new WaitForSeconds(0.2f);
-			GetComponent<Renderer>().material.color = Color.grey;
 			GameObject.Find("Numerator").GetComponent<TextMesh>().text = "";
 			isTiming = false;
-			
+			reactionTimer = 0;
+
 		}
 	
 		IEnumerator  BeklemeIncongruent()
 		{
-			
 			int randomNumber = Random.Range(0, 4);
-
-			yield return new WaitForSeconds(1.0f);
-			GetComponent<Renderer>().material.color = Color.green;
-			yield return new WaitForSeconds(0.5f);
-			GetComponent<Renderer>().material.color = Color.grey;
-			yield return new WaitForSeconds(1.5f);
+			int randomNumberSecond = Random.Range(0, 4);
 			
-
+			
+			yield return new WaitForSeconds(2.5f);
 			GameObject.Find("Numerator").GetComponent<TextMesh>().text = digits[randomNumber];
 			isTiming = true;
 //			GestureIncongruent();
-			print(randomNumber+1 + "  Reaction time: " + reactionTimer + "ms");
 			yield return new WaitUntil(() => DigitDetector() == randomNumber+1 );
-			print(DigitDetector() + "  Reaction time: " + reactionTimer + "ms");
-			GetComponent<Renderer>().material.color = Color.green;
+			Debug.Log(DigitDetector() + "  Reaction time: " + reactionTimer + " ms");
+			GameObject.Find("Numerator").GetComponent<TextMesh>().text = "TRUE";
 			yield return new WaitForSeconds(0.2f);
-			GetComponent<Renderer>().material.color = Color.grey;
 			GameObject.Find("Numerator").GetComponent<TextMesh>().text = "";
 			isTiming = false;
+			reactionTimer = 0;
 			
-			int randomNumber2 = Random.Range(0, 4);
-			
-			yield return new WaitForSeconds(1.0f);
-			GetComponent<Renderer>().material.color = Color.green;
-			yield return new WaitForSeconds(0.5f);
-			GetComponent<Renderer>().material.color = Color.grey;
-			yield return new WaitForSeconds(1.5f);
-			
-			GameObject.Find("Numerator").GetComponent<TextMesh>().text = digits[randomNumber2];
+			yield return new WaitForSeconds(2.5f);
+			GameObject.Find("Numerator").GetComponent<TextMesh>().text = digits[randomNumberSecond];
 			isTiming = true;
-			print(randomNumber2+1 + "  Reaction time2: " + reactionTimer + "ms");
-			yield return new WaitUntil(() => DigitDetector() == randomNumber2+1 );
-			print(DigitDetector() + "  Reaction time2: " + reactionTimer + "ms");
-			GetComponent<Renderer>().material.color = Color.green;
+			yield return new WaitUntil(() => DigitDetector() == randomNumberSecond+1 );
+			Debug.Log(DigitDetector() + "  Reaction timeSecond: " + reactionTimer + " ms");
+			GameObject.Find("Numerator").GetComponent<TextMesh>().text = "TRUE";
 			yield return new WaitForSeconds(0.2f);
-			GetComponent<Renderer>().material.color = Color.grey;
 			GameObject.Find("Numerator").GetComponent<TextMesh>().text = "";
 			isTiming = false;
-			
-	}
+			reactionTimer = 0;
+
+		}
 
 	
-
-
 	int DigitDetector() //Hand Digit Calculator
 	{
-		//BOTH hands are active. LOOK
 		
-		int a = 0,b = 0,c = 0,d = 0,e = 0,toplam = 0; 
+		int a = 0,b = 0,c = 0,d = 0,e = 0,sum = 0;
 		
-		Leap.Hand hand;
-		hand = Other.HandModel.GetLeapHand();
+		//***BOTH hands should active. LOOK***
+		current = controller.Frame();
 
-		//for(int i = 0; i <= 4, i++){} duzenelenecek +
-		//null korumasi
+		if (current.Hands.Count == 1)
+		{
+			if (current.Hands[0].IsRight)
+				handRight = current.Hands[0];
+			else
+				handRight = null;
+		}
+		else if (current.Hands.Count == 2)
+			if (current.Hands[0].IsRight)
+				handRight = current.Hands[0];
+			else
+				handRight = current.Hands[1];
+		else if (current.Hands.Count == 0)
+			handRight = null;
+
+		if (handRight != null)
+		{
+			if (handRight.Fingers[0].IsExtended){ a = 1;}
+			if (handRight.Fingers[1].IsExtended){ b = 1;}
+			if (handRight.Fingers[2].IsExtended){ c = 1;}
+			if (handRight.Fingers[3].IsExtended){ d = 1;}
+			if (handRight.Fingers[4].IsExtended){ e = 1;}
+		}
 		
-		if (hand.Fingers[0].IsExtended){ a = 1;}
-		if (hand.Fingers[1].IsExtended){ b = 1;}
-		if (hand.Fingers[2].IsExtended){ c = 1;}
-		if (hand.Fingers[3].IsExtended){ d = 1;}
-		if (hand.Fingers[4].IsExtended){ e = 1;}
-
-		toplam= a + b + c + d + e;
-
-		/*
-		if (toplam == 1){ print(digits[0]);}
-		if (toplam == 2){ print(digits[1]);}
-		if (toplam == 3){ print(digits[2]);}
-		if (toplam == 4){ print(digits[3]);}
-		if (toplam == 5){ print(digits[4]);}
-		*/
-		return toplam;
-
+		sum = a + b + c + d + e;
+	//	handRight.Fingers[2].HandId.
+		
+		return sum;
 	}
-
 
 	void GestureIncongruent()
 	{
-		//DigerEl.UseMetaCarpals = false;
 		
-		DigerParmak.
-
+		
 	}
-	
 	
 	
 	void Start ()
 	{
 	
+		controller = new Controller();
+		current = controller.Frame();
 		
 		digits[0] = "1";
 		digits[1] = "2";
@@ -193,26 +171,14 @@ public class ReactionTimeCalc : MonoBehaviour {
 		digits[4] = "5";
 		
 		GetComponent<Renderer>().material.color = Color.yellow;
-		
-		
-	//	GameObject.FindWithTag("Player").GetComponent<ExtendedFingerDetector>().Thumb = PointingState.Extended;
 
-
-		//print(digits.Length);
-		//	print(digits[4]);
-
-		/*	digits[5] = "6";
-			digits[6] = "7";
-			digits[7] = "8";
-			digits[8] = "9";
-			digits[9] = "10";
-		*/
 	}
 	
 	// Update is called once per frame
 	void Update ()
 	{
 
+		
 		if (isTiming)
 		{
 			reactionTimer += Time.deltaTime;
@@ -232,10 +198,5 @@ public class ReactionTimeCalc : MonoBehaviour {
 			
 		}
 
-	
-		
-		
-		
-		
 	}
 }
