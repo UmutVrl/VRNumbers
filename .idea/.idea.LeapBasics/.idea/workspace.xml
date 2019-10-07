@@ -29,44 +29,55 @@
     <session id="912509323">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="25" />
+          <entry key="project.closed" value="37" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.18" value="2" />
+          <entry key="project.open.time.19" value="3" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.38" value="2" />
           <entry key="project.open.time.4" value="6" />
+          <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.44" value="2" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.54" value="1" />
+          <entry key="project.open.time.55" value="1" />
+          <entry key="project.open.time.59" value="1" />
           <entry key="project.open.time.62" value="1" />
-          <entry key="project.opened" value="26" />
+          <entry key="project.open.time.64" value="1" />
+          <entry key="project.open.time.92" value="1" />
+          <entry key="project.opened" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="23" />
+          <entry key="cs" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="23" />
+          <entry key="C#" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="8133" />
+          <entry key="cs" value="16875" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="8133" />
+          <entry key="C#" value="16875" />
         </counts>
       </usages-collector>
     </session>
@@ -76,177 +87,71 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ReactionTimeCalc.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1076">
-              <caret line="148" column="8" selection-start-line="148" selection-start-column="8" selection-end-line="148" selection-end-column="8" />
+            <state relative-caret-position="413">
+              <caret line="61" column="57" selection-start-line="61" selection-start-column="57" selection-end-line="61" selection-end-column="57" />
               <folding>
-                <marker date="1554881471895" expanded="false" signature="6:413" ph="..." />
-                <marker date="1554881471895" expanded="true" signature="462:5213" ph="{...}" />
-                <marker date="1554881471895" expanded="true" signature="529:636" ph="/* public  ExtendedFingerDetector Other; ... */" />
-                <marker date="1554881471895" expanded="true" signature="833:1007" ph="{...}" />
-                <marker date="1554881471895" expanded="true" signature="1044:1107" ph="{...}" />
-                <marker date="1554881471895" expanded="true" signature="1194:2373" ph="{...}" />
-                <marker date="1554881471895" expanded="true" signature="2411:3613" ph="{...}" />
-                <marker date="1554881471895" expanded="true" signature="3661:4489" ph="{...}" />
-                <marker date="1554881471895" expanded="true" signature="3845:3950" ph="{...}" />
-                <marker date="1554881471895" expanded="true" signature="4180:4433" ph="{...}" />
-                <marker date="1554881471895" expanded="true" signature="4517:4529" ph="{...}" />
-                <marker date="1554881471895" expanded="true" signature="4548:4781" ph="{...}" />
-                <marker date="1554881471895" expanded="true" signature="4835:5211" ph="{...}" />
-                <marker date="1554881471895" expanded="true" signature="4858:4902" ph="{...}" />
-                <marker date="1554881471895" expanded="true" signature="4943:5055" ph="{...}" />
-                <marker date="1554881471895" expanded="true" signature="5093:5207" ph="{...}" />
+                <marker date="1564150785951" expanded="false" signature="6:602" ph="..." />
+                <marker date="1564150785951" expanded="true" signature="649:14592" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="655:729" ph="/// LEAP HAND FINGER COUNTING PROJECT ... " />
+                <marker date="1564150785951" expanded="true" signature="802:865" ph="/* public float reactionTimer1; ... */" />
+                <marker date="1564150785951" expanded="true" signature="1587:2087" ph="/* TODO: ... */" />
+                <marker date="1564150785951" expanded="true" signature="2220:6976" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="2889:6849" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="2976:6845" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="3444:3886" ph="/* TODO: step A-B should be different ... */" />
+                <marker date="1564150785951" expanded="true" signature="4896:4951" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="4984:5018" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="6978:8202" ph="/* IEnumerator BeklemeIncongruent() ... */" />
+                <marker date="1564150785951" expanded="true" signature="8234:9323" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="8514:8730" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="8552:8620" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="8658:8726" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="8768:8845" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="8883:8934" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="8964:9035" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="9061:9126" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="9377:11314" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="9653:9869" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="9691:9759" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="9797:9865" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="9907:9984" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="10022:10073" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="10100:10600" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="10145:10201" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="10243:10299" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="10341:10397" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="10439:10495" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="10536:10592" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="10626:11123" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="10672:10728" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="10772:10828" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="10869:10925" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="10966:11022" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="11063:11119" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="11316:12794" ph="/* List&lt;float&gt; FingerDetector() //TODO make list ... */" />
+                <marker date="1564150785951" expanded="true" signature="12811:12941" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="12993:13341" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="13086:13190" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="13230:13338" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="13398:13607" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="13522:13581" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="13609:13915" ph="/* public void FileUtility() ... */" />
+                <marker date="1564150785951" expanded="true" signature="13938:14400" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="14030:14065" ph="{...}" />
+                <marker date="1564150785951" expanded="true" signature="14427:14590" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/DetectionUtilities/ExtendedFingerDetector.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Randomizer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="240">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding>
-                <marker date="1526509083000" expanded="true" signature="0:640" ph="/* Copyright (C) Leap Motion, Inc. 2011-2018. ... */" />
-                <marker date="1526509083000" expanded="false" signature="648:729" ph="..." />
-                <marker date="1526509083000" expanded="true" signature="752:6911" ph="{...}" />
-                <marker date="1526509083000" expanded="true" signature="757:1343" ph="/* Detects when specified fingers are in an extended or non-extended state. ... */" />
-                <marker date="1526509083000" expanded="true" signature="1393:6780" ph="{...}" />
-                <marker date="1526509083000" expanded="true" signature="1399:1482" ph="/* The interval at which to check finger state. ... */" />
-                <marker date="1526509083000" expanded="true" signature="1657:1797" ph="/* The HandModelBase instance to observe. ... */" />
-                <marker date="1526509083000" expanded="true" signature="3141:3264" ph="/* Whether to draw the detector's Gizmos for debugging. (Not every detector provides gizmos.) ... */" />
-                <marker date="1526509083000" expanded="true" signature="3478:4158" ph="{...}" />
-                <marker date="1526509083000" expanded="true" signature="3638:4147" ph="{...}" />
-                <marker date="1526509083000" expanded="true" signature="3698:3915" ph="{...}" />
-                <marker date="1526509083000" expanded="true" signature="4178:4235" ph="{...}" />
-                <marker date="1526509083000" expanded="true" signature="4260:4307" ph="{...}" />
-                <marker date="1526509083000" expanded="true" signature="4333:4399" ph="{...}" />
-                <marker date="1526509083000" expanded="true" signature="4443:5624" ph="{...}" />
-                <marker date="1526509083000" expanded="true" signature="4479:5618" ph="{...}" />
-                <marker date="1526509083000" expanded="true" signature="4567:5508" ph="{...}" />
-                <marker date="1526509083000" expanded="true" signature="4637:5498" ph="{...}" />
-                <marker date="1526509083000" expanded="true" signature="5015:5127" ph="{...}" />
-                <marker date="1526509083000" expanded="true" signature="5063:5113" ph="{...}" />
-                <marker date="1526509083000" expanded="true" signature="5355:5396" ph="{...}" />
-                <marker date="1526509083000" expanded="true" signature="5443:5486" ph="{...}" />
-                <marker date="1526509083000" expanded="true" signature="5526:5561" ph="{...}" />
-                <marker date="1526509083000" expanded="true" signature="5705:5928" ph="{...}" />
-                <marker date="1526509083000" expanded="true" signature="5976:6765" ph="{...}" />
-                <marker date="1526509083000" expanded="true" signature="6044:6759" ph="{...}" />
-                <marker date="1526509083000" expanded="true" signature="6263:6751" ph="{...}" />
-                <marker date="1526509083000" expanded="true" signature="6557:6606" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/RiggedFinger.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="99" column="16" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="33" />
-              <folding>
-                <marker date="1526509084000" expanded="true" signature="0:640" ph="/* Copyright (C) Leap Motion, Inc. 2011-2018. ... */" />
-                <marker date="1526509084000" expanded="false" signature="648:698" ph="..." />
-                <marker date="1526509084000" expanded="true" signature="721:4950" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="726:1031" ph="/// Manages the position and orientation of the bones in a model rigged for skeletal ... " />
-                <marker date="1526509084000" expanded="true" signature="1074:4947" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="1081:1242" ph="/// Allows the mesh to be stretched to align with finger joint positions. ... " />
-                <marker date="1526509084000" expanded="true" signature="1521:1625" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="1632:1723" ph="/// Fingertip lengths for the standard edit-time hand. ... " />
-                <marker date="1526509084000" expanded="true" signature="1812:2218" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="2083:2212" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="2224:2335" ph="/// Updates model bone positions and rotations based on tracked hand data. ... " />
-                <marker date="1526509084000" expanded="true" signature="2376:3521" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="2423:3515" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="2455:3507" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="2555:3497" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="2701:3485" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="2717:2962" ph="/* Set fingertip base bone scale to match the bone length to the fingertip. ... */" />
-                <marker date="1526509084000" expanded="true" signature="3588:3896" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="3679:3865" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="3773:3857" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="3954:4062" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="4121:4641" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="4196:4361" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="4361:4635" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="4693:4942" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/RiggedHand.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1526509084000" expanded="true" signature="0:640" ph="/* Copyright (C) Leap Motion, Inc. 2011-2018. ... */" />
-                <marker date="1526509084000" expanded="false" signature="648:780" ph="..." />
-                <marker date="1526509084000" expanded="true" signature="803:14112" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="960:14110" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="1006:1068" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="1018:1062" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="1122:1161" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="1459:1637" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="1511:1631" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="1541:1588" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="2377:2798" ph="[...]" />
-                <marker date="1526509084000" expanded="true" signature="3011:3185" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="3067:3179" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="3652:3797" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="3837:4069" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="3921:3966" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="4109:4769" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="4135:4467" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="4171:4228" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="4228:4392" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="4315:4382" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="4496:4568" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="4617:4763" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="4651:4755" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="4775:5035" ph="/* These versions of GetPalmRotation &amp; CalculateRotation return the opposite vector compared to LeapUnityExtensio ... */" />
-                <marker date="1526509084000" expanded="true" signature="5082:5294" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="5109:5198" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="5215:5254" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="5356:5505" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="5652:6091" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="6286:6663" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="6800:9610" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="7213:7263" ph="/* find palm by name ... */" />
-                <marker date="1526509084000" expanded="true" signature="7560:7600" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="7600:7790" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="7655:7782" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="7731:7772" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="7808:7843" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="7860:9604" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="7904:9596" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="8113:9586" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="8201:8406" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="8493:8698" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="8786:8994" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="9080:9282" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="9369:9574" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="9736:10049" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="9852:10043" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="10177:10490" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="10293:10484" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="10702:11333" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="11052:11114" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="11471:11767" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="11890:12482" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="12080:12175" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="12220:12315" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="12360:12455" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="12620:12833" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="12702:12827" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="13027:13290" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="13122:13284" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="13349:13515" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="13461:13509" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="13584:13762" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="13697:13756" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="13793:14106" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="13855:14018" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="14057:14100" ph="{...}" />
+                <marker date="1562147462521" expanded="true" signature="154:195" ph="{...}" />
+                <marker date="1562147462521" expanded="true" signature="225:338" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -263,26 +168,43 @@
       <find>watcherCoroutine</find>
       <find>Digitde</find>
       <find>Perio</find>
+      <find>Bones</find>
+      <find>finger</find>
+      <find>fingers</find>
+      <find>bone</find>
+      <find>side1</find>
+      <find>fingersIndex</find>
+      <find>SetupRiggedFingers()</find>
+      <find>assignRiggedFingersByName</find>
+      <find>MEtacarpal</find>
+      <find>public</find>
+      <find>handedness</find>
+      <find>istiming</find>
+      <find>waitu</find>
+      <find>math</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/PrintMessage.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/RiggedFinger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Fingercountdeneme.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/RiggedHand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ReactionTimeCalc.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/DetectionUtilities/ExtendedFingerDetector.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Plugins/LeapCSharp/Finger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Utils/ProfilerSample.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/DetectionUtilities/Detector.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/LeapServiceProvider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/HandModelBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Utils/FpsLabel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/HandEnableDisable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/XR/XRHeightOffset.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Fingercountdeneme.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/PrintMessage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/HandModelManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/RiggedFinger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/RiggedHand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Randomizer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ReactionTimeCalc.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/DetectionUtilities/ExtendedFingerDetector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Plugins/LeapCSharp/Finger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9CBED97E-77A8-4E8C-9547-050A4E21C142/bd/44df98b5/SerializeField.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Utils/ProfilerSample.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/DetectionUtilities/Detector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/LeapServiceProvider.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -292,6 +214,8 @@
         <option value="$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Utils/FpsLabel.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/PrintMessage.cs" />
         <option value="$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/RiggedHand.cs" />
+        <option value="$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/RiggedFinger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Randomizer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ReactionTimeCalc.cs" />
       </list>
     </option>
@@ -302,7 +226,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="54" />
     <option name="y" value="539" />
     <option name="width" value="1769" />
@@ -314,6 +238,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -326,7 +251,6 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
@@ -400,12 +324,27 @@
       <workItem from="1554464173051" duration="120000" />
       <workItem from="1554464393488" duration="3144000" />
       <workItem from="1554470795022" duration="7188000" />
-      <workItem from="1554881207164" duration="264000" />
+      <workItem from="1554881207164" duration="1039000" />
+      <workItem from="1554990798851" duration="3463000" />
+      <workItem from="1554995396035" duration="1786000" />
+      <workItem from="1555053996872" duration="598000" />
+      <workItem from="1555599238814" duration="10315000" />
+      <workItem from="1558370121537" duration="278000" />
+      <workItem from="1561724085549" duration="10786000" />
+      <workItem from="1561970428507" duration="1484000" />
+      <workItem from="1562142254852" duration="6815000" />
+      <workItem from="1562330021238" duration="9057000" />
+      <workItem from="1562929016462" duration="12427000" />
+      <workItem from="1563441533173" duration="9767000" />
+      <workItem from="1563534500070" duration="7675000" />
+      <workItem from="1564146019349" duration="4762000" />
+      <workItem from="1570196087613" duration="1439000" />
+      <workItem from="1570436836444" duration="1199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97363000" />
+    <option name="totallyTimeSpent" value="179989000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -418,13 +357,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30246422" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0727345" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -537,9 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/HandEnableDisable.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/DetectionUtilities/Detector.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -547,173 +482,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/DetectionUtilities/ExtendedFingerDetector.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/HandEnableDisable.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9CBED97E-77A8-4E8C-9547-050A4E21C142/bd/44df98b5/SerializeField.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1526509083000" expanded="true" signature="0:640" ph="/* Copyright (C) Leap Motion, Inc. 2011-2018. ... */" />
-            <marker date="1526509083000" expanded="false" signature="648:729" ph="..." />
-            <marker date="1526509083000" expanded="true" signature="752:6911" ph="{...}" />
-            <marker date="1526509083000" expanded="true" signature="757:1343" ph="/* Detects when specified fingers are in an extended or non-extended state. ... */" />
-            <marker date="1526509083000" expanded="true" signature="1393:6780" ph="{...}" />
-            <marker date="1526509083000" expanded="true" signature="1399:1482" ph="/* The interval at which to check finger state. ... */" />
-            <marker date="1526509083000" expanded="true" signature="1657:1797" ph="/* The HandModelBase instance to observe. ... */" />
-            <marker date="1526509083000" expanded="true" signature="3141:3264" ph="/* Whether to draw the detector's Gizmos for debugging. (Not every detector provides gizmos.) ... */" />
-            <marker date="1526509083000" expanded="true" signature="3478:4158" ph="{...}" />
-            <marker date="1526509083000" expanded="true" signature="3638:4147" ph="{...}" />
-            <marker date="1526509083000" expanded="true" signature="3698:3915" ph="{...}" />
-            <marker date="1526509083000" expanded="true" signature="4178:4235" ph="{...}" />
-            <marker date="1526509083000" expanded="true" signature="4260:4307" ph="{...}" />
-            <marker date="1526509083000" expanded="true" signature="4333:4399" ph="{...}" />
-            <marker date="1526509083000" expanded="true" signature="4443:5624" ph="{...}" />
-            <marker date="1526509083000" expanded="true" signature="4479:5618" ph="{...}" />
-            <marker date="1526509083000" expanded="true" signature="4567:5508" ph="{...}" />
-            <marker date="1526509083000" expanded="true" signature="4637:5498" ph="{...}" />
-            <marker date="1526509083000" expanded="true" signature="5015:5127" ph="{...}" />
-            <marker date="1526509083000" expanded="true" signature="5063:5113" ph="{...}" />
-            <marker date="1526509083000" expanded="true" signature="5355:5396" ph="{...}" />
-            <marker date="1526509083000" expanded="true" signature="5443:5486" ph="{...}" />
-            <marker date="1526509083000" expanded="true" signature="5526:5561" ph="{...}" />
-            <marker date="1526509083000" expanded="true" signature="5705:5928" ph="{...}" />
-            <marker date="1526509083000" expanded="true" signature="5976:6765" ph="{...}" />
-            <marker date="1526509083000" expanded="true" signature="6044:6759" ph="{...}" />
-            <marker date="1526509083000" expanded="true" signature="6263:6751" ph="{...}" />
-            <marker date="1526509083000" expanded="true" signature="6557:6606" ph="{...}" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/RiggedHand.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/HandModelManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1526509084000" expanded="true" signature="0:640" ph="/* Copyright (C) Leap Motion, Inc. 2011-2018. ... */" />
-            <marker date="1526509084000" expanded="false" signature="648:780" ph="..." />
-            <marker date="1526509084000" expanded="true" signature="803:14112" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="960:14110" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="1006:1068" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="1018:1062" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="1122:1161" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="1459:1637" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="1511:1631" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="1541:1588" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="2377:2798" ph="[...]" />
-            <marker date="1526509084000" expanded="true" signature="3011:3185" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="3067:3179" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="3652:3797" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="3837:4069" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="3921:3966" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="4109:4769" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="4135:4467" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="4171:4228" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="4228:4392" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="4315:4382" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="4496:4568" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="4617:4763" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="4651:4755" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="4775:5035" ph="/* These versions of GetPalmRotation &amp; CalculateRotation return the opposite vector compared to LeapUnityExtensio ... */" />
-            <marker date="1526509084000" expanded="true" signature="5082:5294" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="5109:5198" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="5215:5254" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="5356:5505" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="5652:6091" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="6286:6663" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="6800:9610" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="7213:7263" ph="/* find palm by name ... */" />
-            <marker date="1526509084000" expanded="true" signature="7560:7600" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="7600:7790" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="7655:7782" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="7731:7772" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="7808:7843" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="7860:9604" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="7904:9596" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="8113:9586" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="8201:8406" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="8493:8698" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="8786:8994" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="9080:9282" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="9369:9574" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="9736:10049" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="9852:10043" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="10177:10490" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="10293:10484" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="10702:11333" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="11052:11114" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="11471:11767" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="11890:12482" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="12080:12175" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="12220:12315" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="12360:12455" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="12620:12833" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="12702:12827" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="13027:13290" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="13122:13284" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="13349:13515" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="13461:13509" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="13584:13762" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="13697:13756" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="13793:14106" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="13855:14018" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="14057:14100" ph="{...}" />
-          </folding>
-        </state>
+        <state relative-caret-position="-288" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/RiggedFinger.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="99" column="16" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="33" />
-          <folding>
-            <marker date="1526509084000" expanded="true" signature="0:640" ph="/* Copyright (C) Leap Motion, Inc. 2011-2018. ... */" />
-            <marker date="1526509084000" expanded="false" signature="648:698" ph="..." />
-            <marker date="1526509084000" expanded="true" signature="721:4950" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="726:1031" ph="/// Manages the position and orientation of the bones in a model rigged for skeletal ... " />
-            <marker date="1526509084000" expanded="true" signature="1074:4947" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="1081:1242" ph="/// Allows the mesh to be stretched to align with finger joint positions. ... " />
-            <marker date="1526509084000" expanded="true" signature="1521:1625" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="1632:1723" ph="/// Fingertip lengths for the standard edit-time hand. ... " />
-            <marker date="1526509084000" expanded="true" signature="1812:2218" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="2083:2212" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="2224:2335" ph="/// Updates model bone positions and rotations based on tracked hand data. ... " />
-            <marker date="1526509084000" expanded="true" signature="2376:3521" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="2423:3515" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="2455:3507" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="2555:3497" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="2701:3485" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="2717:2962" ph="/* Set fingertip base bone scale to match the bone length to the fingertip. ... */" />
-            <marker date="1526509084000" expanded="true" signature="3588:3896" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="3679:3865" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="3773:3857" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="3954:4062" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="4121:4641" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="4196:4361" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="4361:4635" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="4693:4942" ph="{...}" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/DetectionUtilities/ExtendedFingerDetector.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/RiggedHand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ReactionTimeCalc.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1076">
-          <caret line="148" column="8" selection-start-line="148" selection-start-column="8" selection-end-line="148" selection-end-column="8" />
+        <state relative-caret-position="413">
+          <caret line="61" column="57" selection-start-line="61" selection-start-column="57" selection-end-line="61" selection-end-column="57" />
           <folding>
-            <marker date="1554881471895" expanded="false" signature="6:413" ph="..." />
-            <marker date="1554881471895" expanded="true" signature="462:5213" ph="{...}" />
-            <marker date="1554881471895" expanded="true" signature="529:636" ph="/* public  ExtendedFingerDetector Other; ... */" />
-            <marker date="1554881471895" expanded="true" signature="833:1007" ph="{...}" />
-            <marker date="1554881471895" expanded="true" signature="1044:1107" ph="{...}" />
-            <marker date="1554881471895" expanded="true" signature="1194:2373" ph="{...}" />
-            <marker date="1554881471895" expanded="true" signature="2411:3613" ph="{...}" />
-            <marker date="1554881471895" expanded="true" signature="3661:4489" ph="{...}" />
-            <marker date="1554881471895" expanded="true" signature="3845:3950" ph="{...}" />
-            <marker date="1554881471895" expanded="true" signature="4180:4433" ph="{...}" />
-            <marker date="1554881471895" expanded="true" signature="4517:4529" ph="{...}" />
-            <marker date="1554881471895" expanded="true" signature="4548:4781" ph="{...}" />
-            <marker date="1554881471895" expanded="true" signature="4835:5211" ph="{...}" />
-            <marker date="1554881471895" expanded="true" signature="4858:4902" ph="{...}" />
-            <marker date="1554881471895" expanded="true" signature="4943:5055" ph="{...}" />
-            <marker date="1554881471895" expanded="true" signature="5093:5207" ph="{...}" />
+            <marker date="1564150785951" expanded="false" signature="6:602" ph="..." />
+            <marker date="1564150785951" expanded="true" signature="649:14592" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="655:729" ph="/// LEAP HAND FINGER COUNTING PROJECT ... " />
+            <marker date="1564150785951" expanded="true" signature="802:865" ph="/* public float reactionTimer1; ... */" />
+            <marker date="1564150785951" expanded="true" signature="1587:2087" ph="/* TODO: ... */" />
+            <marker date="1564150785951" expanded="true" signature="2220:6976" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="2889:6849" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="2976:6845" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="3444:3886" ph="/* TODO: step A-B should be different ... */" />
+            <marker date="1564150785951" expanded="true" signature="4896:4951" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="4984:5018" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="6978:8202" ph="/* IEnumerator BeklemeIncongruent() ... */" />
+            <marker date="1564150785951" expanded="true" signature="8234:9323" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="8514:8730" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="8552:8620" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="8658:8726" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="8768:8845" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="8883:8934" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="8964:9035" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="9061:9126" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="9377:11314" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="9653:9869" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="9691:9759" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="9797:9865" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="9907:9984" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="10022:10073" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="10100:10600" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="10145:10201" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="10243:10299" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="10341:10397" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="10439:10495" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="10536:10592" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="10626:11123" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="10672:10728" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="10772:10828" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="10869:10925" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="10966:11022" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="11063:11119" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="11316:12794" ph="/* List&lt;float&gt; FingerDetector() //TODO make list ... */" />
+            <marker date="1564150785951" expanded="true" signature="12811:12941" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="12993:13341" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="13086:13190" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="13230:13338" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="13398:13607" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="13522:13581" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="13609:13915" ph="/* public void FileUtility() ... */" />
+            <marker date="1564150785951" expanded="true" signature="13938:14400" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="14030:14065" ph="{...}" />
+            <marker date="1564150785951" expanded="true" signature="14427:14590" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Randomizer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <marker date="1562147462521" expanded="true" signature="154:195" ph="{...}" />
+            <marker date="1562147462521" expanded="true" signature="225:338" ph="{...}" />
           </folding>
         </state>
       </provider>

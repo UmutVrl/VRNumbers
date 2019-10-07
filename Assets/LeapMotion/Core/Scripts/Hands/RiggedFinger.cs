@@ -58,6 +58,8 @@ namespace Leap.Unity {
     /// <summary>
     /// Updates model bone positions and rotations based on tracked hand data.
     /// </summary>
+    ///
+    /// 
     public override void UpdateFinger() {
       for (int i = 0; i < bones.Length; ++i) {
         if (bones[i] != null) {
@@ -121,7 +123,10 @@ namespace Leap.Unity {
       Vector3 distance = transform.InverseTransformPoint(transform.position) - transform.InverseTransformPoint(transform.GetChild(0).transform.position);
       Vector3 zeroed = RiggedHand.CalculateZeroedVector(distance);
       return zeroed;
+      
     }
 
+    
+    
   } 
 }

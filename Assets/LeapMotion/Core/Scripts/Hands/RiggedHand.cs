@@ -232,6 +232,8 @@ namespace Leap.Unity {
         fingerModelList[i].SetupRiggedFinger(UseMetaCarpals);
       }
     }
+    
+    
     /**Sets the modelPalmFacing vector in each RiggedFinger to match this RiggedHand */
     private void setFingerPalmFacing() {
       RiggedFinger[] fingerModelList = GetComponentsInChildren<RiggedFinger>();
