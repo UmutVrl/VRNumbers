@@ -90,9 +90,13 @@ namespace Leap.Unity.Interaction {
 
     #region State
 
+    public bool IsButtonPressed = false;
     protected bool _isPressed = false;
+
     /// <summary> Gets whether the button is currently held down. </summary>
-    public bool isPressed { get { return _isPressed; } }
+    public bool isPressed{ get { return _isPressed; } }
+    
+    
     [Obsolete("Deprecated. Use isPressed instead.", false)]
     public bool isDepressed { get { return _isPressed; } }
 
