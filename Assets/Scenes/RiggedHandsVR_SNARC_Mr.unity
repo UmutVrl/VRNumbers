@@ -2025,7 +2025,7 @@ MonoBehaviour:
   ReactionTimer: 0
   ReactionTimerInit: 0
   IsTiming: 0
-  SubjectId: 30
+  SubjectId: 36
 --- !u!1001 &394886097
 Prefab:
   m_ObjectHideFlags: 0
